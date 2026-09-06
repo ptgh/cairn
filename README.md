@@ -9,4 +9,4 @@ that attaches a note to a place and surfaces it when you arrive.
 This repository holds those two pages and a stylesheet. It does not contain the
 app's source.
 
-**Support:** please [open an issue](https://github.com/ptgh/cairn/issues).
+**Support:** email <ptgh@mac.com>, or [open an issue](https://github.com/ptgh/cairn/issues).
