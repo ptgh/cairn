@@ -34,20 +34,30 @@
   <p>Cairn asks for location access so it can notice that you have arrived
   somewhere, including while the app is closed. That is what the product does.</p>
   <p>Your location is read by your iPhone, compared against the places you
-  saved, and discarded. It is never transmitted to us or to anyone else. We
-  could not look up where you have been even if we wanted to, and no request
-  from anyone could make us produce it.</p>
+  saved, and discarded. It is never transmitted to us, and never to anyone else
+  unless you choose to open a place in what3words, described below. We could
+  not look up where you have been even if we wanted to, and no request from
+  anyone could make us produce it.</p>
 
-  <h2>The one thing that leaves your phone</h2>
-  <p>Being exact about this matters more than sounding clean.</p>
-  <p>When you search for a place by name while creating a note, Cairn passes
-  what you typed — and a rough area to search within — to Apple Maps, using
-  Apple’s own MapKit framework. This is how the search returns results. That
-  request is handled by Apple, governed by
+  <h2>What can leave your phone</h2>
+  <p>Being exact about this matters more than sounding clean. There are two
+  things, and each happens only when you choose it.</p>
+  <p><strong>Place search.</strong> When you search for a place by name while
+  creating a note, Cairn passes what you typed — and a rough area to search
+  within — to Apple Maps, using Apple’s own MapKit framework. This is how the
+  search returns results. That request is handled by Apple, governed by
   <a href="https://www.apple.com/uk/legal/privacy/">Apple’s Privacy Policy</a>,
   and its results come straight back to your phone. We do not receive it, store
   it, or have any means of accessing it.</p>
-  <p>If you never use place search, nothing at all leaves your device.</p>
+  <p><strong>Open in what3words.</strong> This is off unless you turn it on in
+  Cairn’s About screen. When it is on and you tap “Open in what3words” on a
+  place, Cairn opens what3words’ own website or app at that place’s
+  coordinates. The coordinates reach what3words in that link, because you chose
+  to open it. Cairn itself never contacts what3words and receives nothing back.
+  What happens after that is governed by
+  <a href="https://what3words.com/privacy">what3words’ privacy policy</a>.</p>
+  <p>If you never search for a place and never open one in what3words, nothing
+  at all leaves your device.</p>
 
   <h2>What Cairn does not do</h2>
   <ul>
@@ -83,7 +93,7 @@
   <p>Anything about privacy, or this page: <a href="mailto:ptgh@mac.com">ptgh@mac.com</a></p>
 
   <footer>
-    Last updated 6 September 2026. Cairn is made in London by an independent
+    Last updated 13 September 2026. Cairn is made in London by an independent
     developer. No personal data is processed, so there is no data controller
     to name.
   </footer>
