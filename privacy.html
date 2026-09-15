@@ -34,21 +34,27 @@
   <p>Cairn asks for location access so it can notice that you have arrived
   somewhere, including while the app is closed. That is what the product does.</p>
   <p>Your location is read by your iPhone, compared against the places you
-  saved, and discarded. It is never transmitted to us, and never to anyone else
-  unless you choose to open a place in what3words, described below. We could
-  not look up where you have been even if we wanted to, and no request from
-  anyone could make us produce it.</p>
+  saved, and discarded. That is how Cairn notices you have arrived, and it
+  happens entirely on the phone. Your location is never transmitted to us. It
+  reaches Apple Maps while you are leaving a note, and what3words only if you
+  open a place there, both described below. We could not look up where you have
+  been even if we wanted to, and no request from anyone could make us produce
+  it.</p>
 
   <h2>What can leave your phone</h2>
   <p>Being exact about this matters more than sounding clean. There are three
-  things, and each happens only when you choose it.</p>
-  <p><strong>Place search.</strong> When you search for a place by name while
-  creating a note, Cairn passes what you typed — and a rough area to search
-  within — to Apple Maps, using Apple’s own MapKit framework. This is how the
-  search returns results. That request is handled by Apple, governed by
+  things, and each happens only while you are using the part of Cairn that
+  needs it.</p>
+  <p><strong>Leaving a note.</strong> The screen for leaving a note uses Apple
+  Maps, through Apple’s own MapKit framework, as soon as it opens: to draw the
+  map, to show the address of the spot where the note is pinned, and to list
+  places near you. For that, Apple receives the pinned spot, where you are, and
+  the area on screen. If you search for a place by name, what you typed goes to
+  Apple Maps too, with a rough area to search within. These requests are handled
+  by Apple, governed by
   <a href="https://www.apple.com/uk/legal/privacy/">Apple’s Privacy Policy</a>,
-  and its results come straight back to your phone. We do not receive it, store
-  it, or have any means of accessing it.</p>
+  and their results come straight back to your phone. We do not receive them,
+  store them, or have any means of accessing them.</p>
   <p><strong>Open in what3words.</strong> This is off unless you turn it on in
   Cairn’s About screen. When it is on and you tap “Open in what3words” on a
   place, Cairn opens what3words’ own website or app at that place’s
@@ -65,8 +71,7 @@
   send to a website, so they never reach us, or GitHub, which hosts the page the
   link opens. Anyone who has the link can see those cairns, so send it only to
   people you would tell.</p>
-  <p>If you never search for a place, never open one in what3words and never
-  send a cairn, nothing at all leaves your device.</p>
+  <p>Apart from these three, nothing leaves your device.</p>
 
   <h2>What Cairn does not do</h2>
   <ul>
