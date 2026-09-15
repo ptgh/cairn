@@ -9,12 +9,12 @@
 }
 @media (prefers-color-scheme: dark) {
   :root {
-    --ground: #100E0C;
-    --surface: #1B1815;
-    --chalk: #F2EEE6;
-    --lichen: #8A8378;
-    --hairline: #2A2621;
-    --ember: #FF7A45;
+    --ground: #3B3631;
+    --surface: #47423C;
+    --chalk: #F0EAE0;
+    --lichen: #B8AFA2;
+    --hairline: #57514A;
+    --ember: #FF8C5A;
   }
 }
 * { box-sizing: border-box; }
