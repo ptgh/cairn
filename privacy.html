@@ -36,7 +36,7 @@
   <p>Your location is read by your iPhone, compared against the places you
   saved, and discarded. That is how Cairn notices you have arrived, and it
   happens entirely on the phone. Your location is never transmitted to us. It
-  reaches Apple Maps while you are leaving a note, and what3words only if you
+  reaches Apple Maps while you are leaving a note or picking a note’s place again, and what3words only if you
   open a place there, both described below. We could not look up where you have
   been even if we wanted to, and no request from anyone could make us produce
   it.</p>
@@ -45,7 +45,7 @@
   <p>Being exact about this matters more than sounding clean. There are five
   things, and each happens only while you are using the part of Cairn that
   needs it.</p>
-  <p><strong>Leaving a note.</strong> The screen for leaving a note uses Apple
+  <p><strong>Leaving a note, or picking its place again.</strong> The screen for leaving a note uses Apple
   Maps, through Apple’s own MapKit framework, as soon as it opens: to draw the
   map, to show the address of the spot where the note is pinned, and to list
   places near you. For that, Apple receives the pinned spot, where you are, and
@@ -55,6 +55,10 @@
   <a href="https://www.apple.com/uk/legal/privacy/">Apple’s Privacy Policy</a>,
   and their results come straight back to your phone. We do not receive them,
   store them, or have any means of accessing them.</p>
+  <p>Editing a cairn you made yourself offers “Pick the place again”, which
+  opens the same list. Nothing is sent until you tap it. When you do, Apple
+  receives the same kinds of thing, except that the pinned spot is the cairn’s
+  current position, which may be nowhere near you.</p>
   <p><strong>Directions to a cairn.</strong> Every cairn offers walking
   directions. Nothing happens until you tap them. When you do, Cairn hands that
   cairn’s place and position to Apple Maps, which opens with walking directions
@@ -86,7 +90,7 @@
   send to a website, so they never reach us, or GitHub, which hosts the page the
   link opens. Anyone who has the link can see those cairns, so send it only to
   people you would tell.</p>
-  <p>Apart from these three, nothing leaves your device.</p>
+  <p>Apart from these five, nothing leaves your device.</p>
 
   <h2>What Cairn does not do</h2>
   <ul>
@@ -122,7 +126,7 @@
   <p>Anything about privacy, or this page: <a href="mailto:ptgh@mac.com">ptgh@mac.com</a></p>
 
   <footer>
-    Last updated 15 September 2026. Cairn is made in London by an independent
+    Last updated 26 September 2026. Cairn is made in London by an independent
     developer. No personal data is processed, so there is no data controller
     to name.
   </footer>
